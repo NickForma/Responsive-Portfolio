@@ -235,7 +235,7 @@ input[type=submit] {
   
 
  }
- 
+
 @media screen and (max-width: 768px) {
    
 
@@ -273,18 +273,8 @@ input[type=submit] {
         margin-bottom: 10px;
     }
     
+    .work {
+        width: 100%;
+    }
     
 } 
-
-
-/* @media screen (max-width: 768px) { */
-
-
-
-
-/* index.html: 980px, 768px, 640px
-portfolio.html: 980px, 768px, 640px
-contact.html: 980px, 768px, 640px */
-/* index.html: 980px, 768px, 640px
-portfolio.html: 980px, 768px, 640px
-contact.html: 980px, 768px, 640px */
