@@ -234,13 +234,20 @@ input[type=submit] {
  
  @media screen and (max-width: 980px) {
   
+    nav {
+        margin-right: 10px;
+    }
 
  }
 
 @media screen and (max-width: 768px) {
-   /* nav {
-       
-   } */
+   #masthead {
+       width: 98%;
+   }
+
+   nav {
+       margin-right: 10px;
+   }
 
    p {
        line-height: 1.1;
@@ -255,12 +262,20 @@ input[type=submit] {
        width: 100%;
    }
 
+   h1 {
+       font-size: 125%;
+   }
+
    
 }
 
 @media screen and (max-width: 640px) {
     header {
         position: static;
+    }
+
+    h1 {
+        font-size: 125%;
     }
 
     #masthead {
